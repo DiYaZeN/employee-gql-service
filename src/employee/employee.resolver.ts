@@ -6,12 +6,12 @@ import { Employee } from './entities/employee.entity';
 @Resolver(() => Employee)
 export class EmployeeResolver {
 
-    constructor (private employeeService: EmployeeService)
+    // constructor (private employeeService: EmployeeService)
 
-    @Query(() => [Employee])
-    findAll() {
+    // @Query(() => [Employee])
+    // findAll() {
 
-    }
+    // }
 
 
 
